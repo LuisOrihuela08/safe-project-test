@@ -1,0 +1,8 @@
+[project]
+name = "safe-inventory-api"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "Clean Python REST API for inventory management — no database required"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
